@@ -12,6 +12,7 @@
 <nav class="lg">
   <a href="#about">À propos</a>
   <a href="#skills">Stack</a>
+  <a href="#matieres">Formation</a>
   <a href="#projects">Projets</a>
   <a href="#parcours">Parcours</a>
   <a href="#contact">Contact</a>
@@ -79,9 +80,60 @@
   </div>
 </div></section>
 
+<!-- MATIERES BTS SIO -->
+<section id="matieres"><div class="wrap sec">
+  <p class="slb rv">03 — Formation</p>
+  <h2 class="st rv">BTS SIO SLAM.</h2>
+
+  <p class="mat-intro rv">Programme réparti en matières professionnelles spécifiques à l'option SLAM et matières communes aux deux options.</p>
+
+  <p class="mat-groupe-titre rv">Matières professionnelles — Option SLAM</p>
+  <div class="mat-grid">
+    <div class="lg skc rv">
+      <p class="skcat">E5 · Coeff. 4</p>
+      <p class="mat-n">Conception et développement d'applications</p>
+      <p class="mat-d">Conception et développement d'applications web et logicielles. Programmation orientée objet (Java, Python), développement web (HTML, CSS, JavaScript, PHP), architecture MVC, gestion de bases de données SQL, versioning Git, méthodes agiles.</p>
+    </div>
+    <div class="lg skc rv" style="transition-delay:.06s">
+      <p class="skcat">E4 · Coeff. 4</p>
+      <p class="mat-n">Support et mise à disposition de services</p>
+      <p class="mat-d">Gestion du parc informatique, assistance technique aux utilisateurs, déploiement de postes de travail, gestion des tickets d'incidents, rédaction de documentation technique et procédures.</p>
+    </div>
+    <div class="lg skc rv" style="transition-delay:.12s">
+      <p class="skcat">E6 · Coeff. 4</p>
+      <p class="mat-n">Cybersécurité des services informatiques</p>
+      <p class="mat-d">Fondamentaux de la sécurité (IAM, chiffrement), protection contre les failles courantes (OWASP Top 10 : injections SQL, XSS…), pare-feu, VPN, conformité RGPD, gestion des incidents de sécurité.</p>
+    </div>
+  </div>
+
+  <p class="mat-groupe-titre rv" style="margin-top:48px">Matières générales</p>
+  <div class="mat-grid" style="grid-template-columns:repeat(2,1fr)">
+    <div class="lg skc rv">
+      <p class="skcat">E1 · Coeff. 3</p>
+      <p class="mat-n">Culture générale et expression</p>
+      <p class="mat-d">Analyse et synthèse de documents, rédaction professionnelle, argumentation écrite et orale. Épreuve écrite (4h) + écriture personnelle.</p>
+    </div>
+    <div class="lg skc rv" style="transition-delay:.06s">
+      <p class="skcat">E1.2 · Coeff. 2</p>
+      <p class="mat-n">Anglais professionnel</p>
+      <p class="mat-d">Vocabulaire technique informatique, lecture de documentation anglophone, rédaction d'emails et rapports professionnels. Niveau B2 visé. Épreuve en CCF.</p>
+    </div>
+    <div class="lg skc rv" style="transition-delay:.12s">
+      <p class="skcat">E3 · Coeff. 3</p>
+      <p class="mat-n">Culture économique, juridique et managériale</p>
+      <p class="mat-d">Droit du numérique, propriété intellectuelle, licences logicielles, contrats informatiques, management de projet, entrepreneuriat numérique. Épreuve : étude de cas (4h).</p>
+    </div>
+    <div class="lg skc rv" style="transition-delay:.18s">
+      <p class="skcat">E2 · Coeff. 3</p>
+      <p class="mat-n">Mathématiques pour l'informatique</p>
+      <p class="mat-d">Algorithmique, logique booléenne, numération binaire et hexadécimale, probabilités et statistiques, algèbre de Boole. Épreuve écrite (2h) ou CCF.</p>
+    </div>
+  </div>
+</div></section>
+
 <!-- PROJECTS -->
 <section id="projects"><div class="wrap sec">
-  <p class="slb rv">03 — Projets</p>
+  <p class="slb rv">04 — Projets</p>
   <h2 class="st rv">Réalisations.</h2>
   <div class="pg">
     <div class="lg pc rv">
@@ -125,7 +177,7 @@
 
 <!-- PARCOURS -->
 <section id="parcours"><div class="wrap sec">
-  <p class="slb rv">04 — Parcours</p>
+  <p class="slb rv">05 — Parcours</p>
   <h2 class="st rv">Chronologie.</h2>
   <div class="tl">
     <div class="lg ti rv">
@@ -163,7 +215,7 @@
 
 <!-- SOFT SKILLS -->
 <section id="softskills"><div class="wrap sec">
-  <p class="slb rv">05 — Qualités</p>
+  <p class="slb rv">06 — Qualités</p>
   <h2 class="st rv">Savoir-être.</h2>
   <div class="sfg">
     <div class="lg sfc rv">
@@ -201,7 +253,7 @@
 
 <!-- CONTACT -->
 <section id="contact"><div class="wrap sec">
-  <p class="slb rv">06 — Contact</p>
+  <p class="slb rv">07 — Contact</p>
   <div class="lg cc rv">
     <h2>Me contacter.</h2>
     <p>Disponible en alternance 2j/3j dès maintenant.<br>Développement web · Paris & Île-de-France.</p>
@@ -408,6 +460,13 @@ h1.hn {
 }
 .tag:hover { background: rgba(255,255,255,.9); color: var(--text); transform: translateY(-2px); box-shadow: 0 4px 16px rgba(0,0,0,.1); }
 .tag.h { background: linear-gradient(135deg, rgba(255,255,255,.85), rgba(240,242,248,.7)); color: var(--text); font-weight: 500; border-color: rgba(255,255,255,1); }
+
+/* ── MATIERES ── */
+.mat-intro { font-size: .9rem; color: var(--muted); line-height: 1.8; font-weight: 300; margin-bottom: 40px; max-width: 640px; }
+.mat-groupe-titre { font-family: 'Syne', sans-serif; font-size: .63rem; letter-spacing: .2em; text-transform: uppercase; color: var(--mercury); margin-bottom: 16px; }
+.mat-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; }
+.mat-n { font-family: 'Syne', sans-serif; font-size: .95rem; font-weight: 700; color: var(--text); margin-bottom: 10px; letter-spacing: -.01em; }
+.mat-d { font-size: .82rem; color: var(--muted); line-height: 1.75; font-weight: 300; }
 
 /* ── PROJECTS ── */
 .pg { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px; }
