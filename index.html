@@ -330,15 +330,23 @@
     <p class="pd" style="margin:0">La veille sur l'XDR confirme que la <strong>convergence EDR→XDR</strong> est la tendance structurante de la cybersécurité en 2026. Pour un développeur SLAM, cela implique de concevoir des applications qui exposent des logs exploitables par ces plateformes (formats structurés, API SIEM), et de comprendre les enjeux de sécurité applicative (OWASP) que l'XDR cherche à détecter. Le cas Tehtris rappelle aussi l'importance de la souveraineté numérique dans les choix techniques en entreprise.</p>
   </div>
 
+  <!-- Téléchargements -->
+  <div style="margin-top:24px;display:flex;flex-wrap:wrap;gap:12px;align-items:center">
+    <a href="Veille_XDR_Powerpoint.pptx" download class="btn btn-dl">
+      <svg viewBox="0 0 24 24" style="width:15px;height:15px;flex-shrink:0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+      Présentation XDR — PowerPoint
+    </a>
+    <a href="Tableau_E5_Ilyes_TIZAOUI.xlsx" download class="btn btn-dl btn-dl-xl">
+      <svg viewBox="0 0 24 24" style="width:15px;height:15px;flex-shrink:0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+      Tableau de synthèse E5 — Excel
+    </a>
+  </div>
+
 </div></section>
 
 <!-- CONTACT -->
 <section id="contact"><div class="wrap sec">
-<<<<<<< HEAD
   <p class="slb rv">08 — Contact</p>
-=======
-  <p class="slb rv">07 - Contact</p>
->>>>>>> 1b50253df1bd7d4ff589d7ef4561542fd820c029
   <div class="lg cc rv">
     <h2>Me contacter.</h2>
     <p>Disponible en alternance 2j/3j dès maintenant.<br>Développement web · Paris & Île-de-France.</p>
@@ -605,6 +613,21 @@ h1.hn {
 .vb { padding: 36px 40px; border-radius: 20px; }
 .vb .pd { font-size: .85rem; }
 
+
+/* ── DOWNLOAD BUTTONS ── */
+.btn-dl {
+  display: inline-flex; align-items: center; gap: 9px;
+  padding: 13px 22px; border-radius: 14px;
+  font-family: 'Syne', sans-serif; font-size: .78rem; font-weight: 600;
+  letter-spacing: .06em; text-transform: uppercase; text-decoration: none;
+  background: linear-gradient(135deg, rgba(255,255,255,.85), rgba(240,242,248,.7));
+  border: 1px solid rgba(255,255,255,1);
+  color: var(--text);
+  box-shadow: 0 2px 12px rgba(0,0,0,.08);
+  transition: all .26s; cursor: pointer;
+}
+.btn-dl:hover { transform: translateY(-3px); box-shadow: 0 6px 24px rgba(0,0,0,.13); color: var(--text); }
+.btn-dl-xl { background: linear-gradient(135deg, rgba(209,250,229,.7), rgba(187,247,208,.5)); border-color: rgba(74,222,128,.3); }
 
 footer { text-align: center; padding: 28px; border-top: 1px solid rgba(0,0,0,.06); font-family: 'Syne', sans-serif; font-size: .7rem; color: var(--mercury); letter-spacing: .08em; }
 
